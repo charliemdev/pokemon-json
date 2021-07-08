@@ -1,0 +1,170 @@
+[ {
+    "id": 1,
+    "num": "#001",
+    "name": "Bulbasaur",
+    "height": "0.7 m",
+    "weight": "6.9 kg",
+    "ability": "Overgrow",
+    "species": "Seed",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Psychic",
+      "Flying",
+      "Ice"
+    ],
+    "stats": {
+        "speed": 30,
+        "spec_def": 40,
+        "spec_att": 40,
+        "defense": 30,
+        "attack": 30,
+        "hp": 30
+      },
+    "next_evolution": "Ivysaur #002",
+    "image": "https://www.serebii.net/pokemon/art/001.png"
+  },
+    {
+      "id": 2,
+      "num": "#002",
+      "name": "Ivysaur",
+      "height": "1 m",
+      "weight": "13 kg",
+      "ability": "Overgrow",
+      "species": "Seed",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "weaknesses": [
+        "Fire",
+        "Psychic",
+        "Flying",
+        "Ice"
+      ],
+      "stats": {
+        "speed": 40,
+        "spec_def": 50,
+        "spec_att": 50,
+        "defense": 40,
+        "attack": 40,
+        "hp": 40
+      },
+      "next_evolution": "Venusaur #003",
+      "image": "https://www.serebii.net/pokemon/art/002.png"
+    },
+    {
+      "id": 3,
+      "num": "#003",
+      "name": "Venusaur",
+      "height": "2 m",
+      "weight": "100 kg",
+      "ability": "Overgrow",
+      "species": "Seed",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "weaknesses": [
+        "Fire",
+        "Psychic",
+        "Flying",
+        "Ice"
+      ],
+      "stats": {
+          "speed": 50,
+          "spec_def": 60,
+          "spec_att": 60,
+          "defense": 50,
+          "attack": 50,
+          "hp": 50
+        },
+      "next_evolution": "Does not evolve.",
+      "image": "https://www.serebii.net/pokemon/art/003.png"
+    },
+    {
+      "id": 4,
+      "num": "#004",
+      "name": "Charmander",
+      "height": "0.6 m",
+      "weight": "8.5 kg",
+      "ability": "Blaze",
+      "species": "Lizard",
+      "type": [
+        "Fire"
+      ],
+      "weaknesses": [
+        "Ground",
+        "Rock",
+        "Water"
+      ],
+      "stats": {
+          "speed": 65,
+          "spec_def": 50,
+          "spec_att": 60,
+          "defense": 43,
+          "attack": 52,
+          "hp": 39
+        },
+      "next_evolution": "Charmeleon #005",
+      "image": "https://www.serebii.net/pokemon/art/004.png"
+    },
+    {
+      "id": 5,
+      "num": "#005",
+      "name": "Charmeleon",
+      "height": "1.1 m",
+      "weight": "19 kg",
+      "ability": "Blaze",
+      "species": "Flame",
+      "type": [
+        "Fire"
+      ],
+      "weaknesses": [
+        "Ground",
+        "Rock",
+        "Water"
+      ],
+      "stats": {
+          "speed": 80,
+          "spec_def": 65,
+          "spec_att": 80,
+          "defense": 58,
+          "attack": 64,
+          "hp": 58
+        },
+      "next_evolution": "Charizard #006",
+      "image": "https://www.serebii.net/pokemon/art/005.png"
+    },
+    {
+      "id": 6,
+      "num": "#006",
+      "name": "Charizard",
+      "height": "1.7 m",
+      "weight": "90.5 kg",
+      "ability": "Blaze",
+      "species": "Flame",
+      "type": [
+        "Fire",
+        "Flying"
+      ],
+      "weaknesses": [
+        "Ground",
+        "Rock",
+        "Electric"
+      ],
+      "stats": {
+          "speed": 100,
+          "spec_def": 85,
+          "spec_att": 109,
+          "defense": 78,
+          "attack": 84,
+          "hp": 78
+        },
+      "next_evolution": "Does not evolve.",
+      "image": "https://www.serebii.net/pokemon/art/006.png"
+    }
+  ]

@@ -1,0 +1,75 @@
+/* Variables */
+$background-white: #ffffff;
+$background-red: #e2350d;
+$background-grey: #eaeaea;
+$padding4: 4px;
+$padding10: 10px;
+$width150: 150px;
+$box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+$radius50: 50px;
+$margin-auto: 0 auto;
+$margin0: 0;
+$margin1r: 1rem;
+$text-center: center;
+
+
+.pokemon, .p-img, .pokemon-info {
+  background-color: $background-white;
+}
+.btn-custom, header {
+  background-color: $background-red;
+}
+.pokemon-num, .next-evolution, body, .weakness, .type {
+  background-color: $background-grey;
+}
+.pokemon-num, .next-evolution, .weakness, .type {
+  border-radius: $radius50;
+  padding: $padding4;
+}
+.pokemon, .details, header > h1 {
+  text-align: $text-center;
+}
+.pokemon, #p-image.pokemon-image, .pokemon-info {
+  padding: $padding10;
+}
+.pokemon-image, .p-img, .next-evolution {
+  width: $width150;
+}
+.p-img, .next-evolution, canvas {
+  margin: $margin-auto;
+}
+.p-img, .pokemon-info {
+  box-shadow: $box-shadow;
+}
+p, header > h1 {
+  margin-block-start: $margin0;
+  margin-block-end: $margin0;
+}
+
+body {
+  margin: $margin0;
+}
+header {
+  padding: $padding10 0;
+  height: 60px;
+
+  h1 {
+    color: #ffffff;
+  }
+}
+.hide {
+  display: none;
+}
+h3 {
+  font-size: 1.25rem;
+}
+.p-img {
+  border-radius: 80px;
+  position: relative;
+}
+.pokemon-info {
+  margin-top: -50px;
+}
+.pokemon-num {
+  width: 70px;
+}

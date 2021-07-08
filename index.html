@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Pokemon JSON</title>
+</head>
+<body>
+    <header class="mb-2">
+        <h1>Pokemon</h1>
+    </header>
+    <main>
+        <div id="pokemon-list" class="row"></div>
+        <!-- Pokemon Details Area -->
+        <div id="pokemon-details" class="details">
+            <h2 id="p-title"></h2>
+            <div class="p-img">
+                <img id="p-image" class="pokemon-image">
+            </div>
+            <!-- Pokemon Number -->
+            <div id="p-info" class="pokemon-info mb-4">
+                <div class="pokemon-num float-end">
+                    <p id="p-num"></p>
+                </div>
+                <!-- Height, Weight, Ability, Species -->
+                <div class="container mt-5">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <h3>Height</h3>
+                            <p id="p-height"></p>
+                        </div>
+                        <div class="col">
+                            <h3>Weight</h3>
+                            <p id="p-weight"></p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <h3>Ability</h3>
+                            <p id="p-ability"></p>
+                        </div>
+                        <div class="col">
+                            <h3>Species</h3>
+                            <p id="p-species"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Type & Weakness -->
+                <div class="container">
+                    <h3>Type(s)</h3>
+                    <p id="p-type" class="row mb-3">
+                    </p>
+                    <h3>Weaknesses</h3>
+                    <p id="p-weakness" class="row mb-3">
+                    </p>
+                 </div>
+                <!-- Speed, HP, Special defense & attack, Defense, Attack -->
+                <div class="container text-center">
+                    <h3>Base Stats</h3>
+                    <canvas id="myCanvas" width="340" height="400"></canvas>
+                </div>
+                <!-- Next Evolution -->
+                <div class="container">
+                    <div>
+                        <h3>Next Evolution</h3>
+                        <p id="p-evolution" class="next-evolution"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-danger btn-custom" type="button" id="backBtn">Back</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/charts.min.js"></script>
+</body>
+</html>
